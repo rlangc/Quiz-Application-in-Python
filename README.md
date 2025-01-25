@@ -50,7 +50,11 @@ The Quiz Application is a Python program that allows users to take quizzes on va
     - Present each question and validate user input
     - Calculate and display the final score
 
-Code Implementation (Basic CLI Version)
+<h2></h2>
+
+<h3>Code Implementation (Basic CLI Version)</h3>
+
+```
 
 import json
 import random
@@ -103,18 +107,22 @@ if __name__ == "__main__":
     quiz = Quiz('quiz_questions.json')
     quiz.start()
 
-How to Use This Quiz Application
+```
 
-    Prepare quiz questions:
-        Create a quiz_questions.json file and add your questions in JSON format.
+<h3>How to Use This Quiz Application</h3>
 
-    Run the script:
+1. Prepare quiz questions:
 
-    python quiz_app.py
+   - Create a ```quiz_questions.json``` file and add your questions in JSON format.
 
-    Answer the questions and receive your final score.
+2. Run the script:
+   - ```python quiz_app.py```
 
-Example Output:
+3. Answer the questions and receive your final score.
+
+<h3>Example Usage:</h3>
+
+```
 
 Welcome to the Quiz!
 
@@ -135,6 +143,8 @@ Your answer (1-4): 1
 Wrong! The correct answer was Mars.
 
 Your final score: 1/2
+
+```
 
 <h2></h2>
 <p align="center">
